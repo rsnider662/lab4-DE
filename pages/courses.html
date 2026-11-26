@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Курсы</h1>
+            <div class="courses">
+                <div class="container">
+                    <div>
+                        <img src="#" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Название1</h3>
+                        <p class="price">200$</p>
+                        <p>описаниеописаниеописаниеописаниеописаниеописание</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <img src="#" alt="img2">
+                    </div>
+                    <div class="content">
+                        <h3>Название2</h3>
+                        <p class="price">400$</p>
+                        <p>описаниеописаниеописаниеописаниеописаниеописание</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <img src="#" alt="img3">
+                    </div>
+                    <div class="content">
+                        <h3>Название3</h3>
+                        <p class="price">600$</p>
+                        <p>описаниеописаниеописаниеописаниеописаниеописание</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <img src="#" alt="img4">
+                    </div>
+                    <div class="content">
+                        <h3>Название4</h3>
+                        <p class="price">800$</p>
+                        <p>описаниеописаниеописаниеописаниеописаниеописание</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- калькулятор -->
+            <!-- выбор продолжительности занятия, количества занятий и тарифа - 3 выбора -->
+            <h2>Калькулятор</h2> 
+            <div id="calc">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <div>
+                            <label for="duration">Продолжительность занятий (в днях)</label>
+                            <p>
+                                <select name="duration" id="duration">
+                                    <option value="1">100</option>
+                                    <option value="1">200</option>
+                                    <option value="1">300</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div>
+                            <label for="amount">Количество занятий</label>
+                            <p>
+                                <select name="amount" id="amount">
+                                    <option value="1">10</option>
+                                    <option value="1">20</option>
+                                    <option value="1">30</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div>
+                            <label for="rate">Тариф</label>
+                            <p>
+                                <select name="rate" id="rate">
+                                    <option value="1">1000</option>
+                                    <option value="1">2000</option>
+                                    <option value="1">3000</option>
+                                </select>
+                            </p>
+                        </div>
+                        <h3 id="total">Итого:  $</h3>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <h3 class="back"><a href="../index.html">Вернуться</a></h3>
+    </main>
+    <footer>
+        <h2>Контактная информация:</h2>
+        <p>Ул. Пушкина, дом Колотушкина 6а</p>
+        <p>+7 (923) 123-45-67</p>
+        <p>email0@email.com</p>
+    </footer>
+</body>
+</html>
